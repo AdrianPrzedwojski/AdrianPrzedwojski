@@ -56,8 +56,8 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/slides/arturAENnowicki-1965.jpg': '50% 70%',
-							'images/slides/arturAENnowicki-2706.jpg': '50% 30%',
+							'images/slides/arturAENnowicki-1965.jpg': 'center',
+							'images/slides/arturAENnowicki-2706.jpg': 'center',
 							'images/slides/arturAENnowicki-3290.jpg': 'center',
 							'images/slides/arturAENnowicki-3340.jpg': 'center',
 							'images/slides/arturAENnowicki-3353.jpg': 'center',
