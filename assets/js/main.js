@@ -126,7 +126,7 @@
 
 		})();
 
-	// Gallery.
+	/* Gallery.
 		$('.gallery')
 			.on('click', 'a', function(event) {
 
@@ -248,6 +248,7 @@
 						}, 275);
 
 					});
+					*/
 
 	// Menu.
 		var $menu = $('#menu');
