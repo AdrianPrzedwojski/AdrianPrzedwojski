@@ -347,9 +347,9 @@
 			});
 
 	// Tabs.
-		$('.tabs').selector({
-			titleSelector: 'h3',
-			delay: 250
-		});
+	//	$('.tabs').selector({
+	//		titleSelector: 'h3',
+	//		delay: 250
+	//	});
 
-})(jQuery);
+//})(jQuery);
