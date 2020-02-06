@@ -57,13 +57,9 @@
 					// Images (in the format of 'url': 'alignment').
 						images: {
 							'images/slides/arturAENnowicki-1965.jpg': 'center',
-							'images/slides/arturAENnowicki-2706.jpg': 'center',
-							'images/slides/arturAENnowicki-3290.jpg': 'center',
-							'images/slides/arturAENnowicki-3340.jpg': 'center',
-							'images/slides/arturAENnowicki-3353.jpg': 'center',
+							'images/slides/arturAENnowicki-3353.jpg': 'top',
 							'images/slides/arturAENnowicki-3359.jpg': 'center',
-							'images/slides/arturAENnowicki-3389.jpg': 'center',
-							'images/slides/arturAENnowicki-3415.jpg': 'center',
+							'images/slides/arturAENnowicki-3415.jpg': 'top',
 							'images/slides/IMG_9398.jpg': 'center'
 
 						},
