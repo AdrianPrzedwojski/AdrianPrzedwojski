@@ -346,10 +346,10 @@
 
 			});
 
-	// Tabs.
-	//	$('.tabs').selector({
-	//		titleSelector: 'h3',
-	//		delay: 250
-	//	});
+	 //Tabs.
+		$('.tabs').selectorr({
+			titleSelector: 'h3',
+			delay: 250
+		});
 
 })(jQuery);
