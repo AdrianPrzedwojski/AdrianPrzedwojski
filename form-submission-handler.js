@@ -83,14 +83,14 @@
         console.log(xhr.responseText);
         form.reset();
         
-        var thankYouMessage = form.querySelector(".thankyou_message");
-        if (thankYouMessage) {
-          thankYouMessage.style.display = "block";
+        //var thankYouMessage = form.querySelector(".thankyou_message");
+       // if (thankYouMessage) {
+          //thankYouMessage.style.display = "block";
           var modal = document.getElementById("myModal");
           modal.style.display = "none";
           var modalsend = document.getElementById("Modalsend");
           modalsend.style.display = "block";
-        }
+       // }
         return;
     };
     // url encode form data for sending as post data
