@@ -137,6 +137,20 @@
 
 			</div>
 
+
+					<div id="Modalsend" class="modal">
+		
+			<!-- Modal content -->
+			<div class="modal-content2">
+			<header>
+					<h4>Wiadomość została wysłana</h4>
+				</header>
+				<p>Za chwilę otrzymasz email z treścią swojej wiadomości.</p>
+				<a id="btnsendmodal" class="button">Zamknij</a>
+			</div>
+	</div>
+
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -146,6 +160,19 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script data-cfasync="false" src="form-submission-handler.js"></script>
+			<script>// Get the modal
+		var modalsend = document.getElementById("Modalsend");
+		var btnsendmodal = document.getElementById("btnsendmodal");
+
+		btnsendmodal.onclick = function() {
+		  modalsend.style.display = "none";
+		}
+
+		  window.onclick = function(event) {
+		  if (event.target == modalsend) {
+			modalsend.style.display = "none";
+		  }
+		}</script>
 
 	</body>
 </html>
