@@ -4707,7 +4707,7 @@ input, select, textarea {
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:900px) {
 	
 	.modal-content2  {
 	  width:90%;
