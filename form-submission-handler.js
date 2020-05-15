@@ -86,6 +86,10 @@
         var thankYouMessage = form.querySelector(".thankyou_message");
         if (thankYouMessage) {
           thankYouMessage.style.display = "block";
+          var modal = document.getElementById("myModal");
+          modal.style.display = "none";
+          var modalsend = document.getElementById("Modalsend");
+          modalsend.style.display = "block";
         }
         return;
     };
